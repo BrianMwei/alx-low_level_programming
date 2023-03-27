@@ -3,7 +3,7 @@
  * rev_string - function to reverse a string
  * @s: test char
  * Return: 0 
- */
+ *
 void rev_string(char *s)
 {
 	int counter = 0, str_1, str_2;
