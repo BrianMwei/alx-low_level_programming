@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * argstostr - Concatenates all arguments into a string
- * @ac: number of arguments passed
- * @av: an array of pointers to the arguments
+ * argstostr - Concatenates all arguments of our program into a string.
+ * @ac: The number of arguments passed
+ * @av: An array of pointers to the arguments.
  *
- * Return: NULL if function fails, else, pointer to the new string
+ * Return: NULL if function fails, else, pointer to the new string.
  */
 char *argstostr(int ac, char **av)
 {
