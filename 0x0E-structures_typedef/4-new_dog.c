@@ -1,11 +1,11 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- *new_dog- function to create a new dog struct
- *@name: the name of the dog
- *@age: age of the dog
+ *new_dog- creates a new dog struct
+ *@name: dog's name
+ *@age: dog's age
  *@owner: dog's owner
- *Return: new dog struct
+ *Return: a new dog struct
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
